@@ -7,11 +7,18 @@
  
 
 ## MUDOGER Workflow
+
 * **(1)** Trimming of the Metagenomic library and removal of all the host reads by running  metaWRAP-Read_qc
-* **(2)**
-* **(3)**
-* **(4)**
-* **(5)**
+* **(2)** Assembly of the clean metagenomic reads produced in **(1)** by running metaWRAP-Assembly module
+* **(3)** Bin extraction with MaxBin2, metaBAT2, and CONCOCT  
+* **(4)** Unification of multiple binning prediction into an advanced bin set (Bin refinement)
+* **(5)** Quality control using cCheckM
+* **(6)** reassemblethe final annotation with PROKKA.
+
+
+Recovery of viral metagenomes using Virfinder, Virsorter and Vibrant for the prediction of viral sequences.  Then, the protein for each contig was predicted by 
+
+Prodigal and the proteins are identified by Blastp
 
 # OVERVIEW OF THE MUDOGER
 
