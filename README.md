@@ -3,7 +3,7 @@
  
  ![](https://github.com/EfthymisF/folder-scripts/blob/master/index.png)
  
-The MUDOGER is the first tool developed for user-friendly metagenomic analysis and classification of data contained in mixed libraries from a wide range of environments. The MUDOGER pipilene process starts with **Read Quality control** of the libraries and **Assembly** of the *"good quality reads"* resulted from the former process. For the next part of  data analysis, the pipeline is devided in 3 different branches: **1. Metawrap** pipeline is used for analayzing Prokaryotic genomes. **2.** **Virsorter**, **Virfinder** and **Vibrant** pipilens are followed and combined for the prediction of viral sequences. **3.** **Eykarep** is run for metagenomic analysis of Eykaryotic genomes.
+ MUDOGER is a tool developed for metagenomic analysis and classification of data contained in mixed libraries from a wide range of environments. MUDOGER is user-friendly  and is the first tool that can be used for the simultaneous extraction of data from Prokaryotes, Eykaryotes by combining a number of pipelines from diffrent tools. The MUDOGER pipilene process starts with **Read Quality control** of the libraries and **Assembly** of the *"good quality reads"* resulted from the former process. For the next part of  data analysis, the pipeline is devided in 3 different branches: **1. Metawrap** pipeline is used for analayzing Prokaryotic genomes. **2.** **Virsorter**, **Virfinder** and **Vibrant** pipilens are followed and combined for the prediction of viral sequences. **3.** **Eykarep** is run for metagenomic analysis of Eykaryotic genomes. 
  
 
 ## MUDOGER Workflow
