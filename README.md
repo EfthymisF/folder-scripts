@@ -47,6 +47,8 @@
 # Installation
 
 # Using MUDOGER
+A tutorial of MUDOGER usage can be found in  ![Tutorial.md](https://github.com/EfthymisF/new/blob/master/Tutorial.md)
+
 
 # Step 0: Dowloading the libraries
 
