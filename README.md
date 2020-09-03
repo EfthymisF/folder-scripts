@@ -49,8 +49,13 @@
 # Using MUDOGER
 
 # Step 0: Dowloading the libraries
+
 # Step 1: Trimming the reads and removing possible host reads
+
 # Step 2: Assembly of "good quality" sequences
+
 # Step 3:METAWRAP pipeline
-# Step 4:Pipelines for viral genomes(VirFinder, VirSorter, Vibrant) 
+
+# Step 4:Pipelines for viral genomes(VirFinder, VirSorter, Vibrant)
+
 # Step 5:EykRep pipeline 
