@@ -34,13 +34,23 @@
 # OVERVIEW OF THE MUDOGER
 
 * **Installation** 
-* **Quality control:** Trimming of the reads and removal of possible host reads
+* **ReadQC Quality control:** Trimming of the reads and removal of possible host reads
 * **Assembly:** Assembly of "good quality" sequences
-* **METAWRAP pipeline:** R: Metagenomic analysis of prokaryotic genomes
-* **VirFinder, VirSorter, Vibrant pipelines:** Metagenomic analysis of viral sequences 
+* **METAWRAP pipeline:**  Metagenomic analysis of prokaryotic genomes
+* **Pipelines for viral genomes(VirFinder, VirSorter, Vibrant):** Metagenomic analysis of viral sequences 
 * **EykRep pipeline:** Metagenomic analysis of Eykaryotic genomes
- 
- 
- In the pre-processing modules the reads are trimming and any read coming from a host is removed and the resulted metagenomic data are assembled 
- In the 
- 
+
+
+# System requirements
+
+
+# Installation
+
+# Using MUDOGER
+
+# Step 0: Dowloading the libraries
+# Step 1: Trimming the reads and removing possible host reads
+# Step 2: Assembly of "good quality" sequences
+# Step 3:METAWRAP pipeline
+# Step 4:Pipelines for viral genomes(VirFinder, VirSorter, Vibrant) 
+# Step 5:EykRep pipeline 
