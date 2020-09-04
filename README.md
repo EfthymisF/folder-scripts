@@ -8,18 +8,19 @@
 
 ## MUDOGER Workflow
 
-* **(1)** Trimming of the Metagenomic library and removal of all the host reads by running  metaWRAP-Read_qc
+##  (1) Trimming of the Metagenomic library and removal of all the host reads by running  metaWRAP-Read_qc
 
-* **(2)** Assembly of the clean metagenomic reads produced in **(1)** by running metaWRAP-Assembly module
+##  (2) Assembly of the clean metagenomic reads produced in **(1)** by running metaWRAP-Assembly module
 
-* **(3)** Metagenomic analysis of Prokaryotic genomes 
-* **(3.1)** Bin extraction with MaxBin2, metaBAT2, and CONCOCT **(3.2)** Unification of multiple binning prediction into an advanced bin set (Bin refinement)  **(3.3)** Quality control using cCheckM **(3.4)** Reassemblethe final annotation with PROKKA
+##  (3) Metagenomic analysis of Prokaryotic genomes 
+``(3.1) Bin extraction with MaxBin2, metaBAT2, and CONCOCT(3.2) Unification of multiple binning prediction into an advanced bin set (Bin refinement) (3.3) Quality control using cCheckM **(3.4)** Reassemblethe final annotation with PROKKA``
 
-* **(4)** Metagenomic analysis of Viral genomes
-* **(4.1)** Recovery of viral metagenomes using Virfinder, Virsorter and Vibrant for the prediction of viral sequences, combination of them to a single file and removal of replicates **(4.2)** Prediction of each contig's protein by Prodigal **(4.3)** Identification of Proteins by Blastp 
+##  (4) Metagenomic analysis of Viral genomes
+``(4.1) Recovery of viral metagenomes using Virfinder, Virsorter and Vibrant for the prediction of viral sequences, combination of them to a single file and removal of replicates (4.2) Prediction of each contig's protein by Prodigal (4.3) Identification of Proteins by Blastp`` 
 
-* **(5)** Metagenomic analysis of Eykaryotic genomes
-* **(5.1)** Classification  of  Eykaryotic genomes with EykRep **(5.2)** Use of CONCOCT for binning and filtering of the Eykaryotic sequences by size.**(5.3)** Then, genes are predicted by  using the trained GeneMark-ES model and MAKER2. **(5.4)** BUSCO is applied for detection of single copy orthologous genes (SCGs) and will estimate the completeness and contamination of Eykaryotic reads
+##  (5) Metagenomic analysis of Eykaryotic genomes
+```(5.1) Classification  of  Eykaryotic genomes with EykRep (5.2) Use of CONCOCT for binning and filtering of the Eykaryotic sequences by size.(5.3) Then, genes are predicted by  using the trained GeneMark-ES model and MAKER2. (5.4) BUSCO is applied for detection of single copy orthologous genes (SCGs) and will estimate the completeness and contamination of Eykaryotic reads```
+
              
 
 
@@ -40,6 +41,22 @@
 
 # Using MUDOGER
 A tutorial of MUDOGER usage can be found in  ![Manual](https://github.com/EfthymisF/new/blob/master/Tutorial.md)
+
+Once all the dependencies are in place, running metaWRAP is relatively simple. The main metaWRAP script wraps around all of its individual modules, which you can call independently.
+
+```MUDOGER -h
+	Usage: MUDOGER [module] --help
+	Options:
+
+	read_qc		Raw read QC module
+	assembly	Assembly module
+ Prokaryotes	Metagenomic analysis of Prokaryotes 
+ Viral genomes Prediction of viral genomes with VirSorter, VirFinder, VIBRANT
+ 
+	Eykaryotes Reassemble bins using metagenomic reads
+	
+ ```
+
 
 
 # Step 0: Dowloading the libraries
