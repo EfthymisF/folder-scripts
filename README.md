@@ -50,13 +50,25 @@ Once all the dependencies are in place, running metaWRAP is relatively simple. T
 
 	read_qc		Raw read QC module
 	assembly	Assembly module
- Prokaryotes	Metagenomic analysis of Prokaryotes 
- Viral genomes Prediction of viral genomes with VirSorter, VirFinder, VIBRANT
- 
-	Eykaryotes Reassemble bins using metagenomic reads
+ 	binning		Binning of Prokaryotic data module 
+	bin_refinement	Refinement of bins from binning module
+	checkm		Completeness and contamination of Prokaryotic bins module
+	prokka 		CLassification of  Prokaryotic bins module
+ 	virfinder   	Prediction of viral genomes with VirFinder module 
+	virsorter	Prediction of viral genomes with VirSorter module 
+	vibrant		Prediction of viral genomes with VIBRANT module
+ 	viral_filt	Selecion of virfinder,virsorter,vibrant good contings 
+	viral_gc_comb	Combination of good viral contigs to one database module	
+	dereplicate	Removal of redundant viral particles module
+	prodigal	Prodigal module	
+	blastp		Protein identification module
+	eykrep		EykRep classification module
+	concoct		CONCOCT module
+	genemark	GeneMark-ES module
+	maker		Maker2 module
+	busco		BUSCO module
 	
  ```
-
 
 
 # Step 0: Dowloading the libraries
