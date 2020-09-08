@@ -27,7 +27,7 @@
 # OVERVIEW OF THE MUDOGER
 
 * **Installation** 
-* **ReadQC Quality control:** Trimming of the reads and removal of possible host reads
+* **Read_Quality_Control:** Trimming of the reads and removal of possible host reads
 * **Assembly:** Assembly of "good quality" sequences
 * **METAWRAP pipeline:**  Metagenomic analysis of prokaryotic genomes
 * **Pipelines for viral genomes(VirFinder, VirSorter, Vibrant):** Metagenomic analysis of viral sequences 
