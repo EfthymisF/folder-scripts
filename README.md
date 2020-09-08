@@ -3,7 +3,7 @@
  
  ![](https://github.com/EfthymisF/folder-scripts/blob/master/index.png)
  
- MUDOGER is a tool developed for metagenomic analysis and classification of data contained in mixed libraries from a wide range of environments. MUDOGER is user-friendly  and is the first tool that can be used for the simultaneous extraction of data from Prokaryotes, Eykaryotes by combining a number of pipelines from diffrent tools. The MUDOGER pipilene process starts with **Read Quality control** of the libraries and **Assembly** of the *"good quality reads"* resulted from the former process. For the next part of  data analysis, the pipeline is devided in 3 different branches: **1. Metawrap** pipeline is used for analayzing Prokaryotic genomes. **2.** **Virsorter**, **Virfinder** and **Vibrant** pipilens are followed and combined for the prediction of viral sequences. **3.** **Eykarep** is run for metagenomic analysis of Eykaryotic genomes. 
+ MUDOGER is a tool developed for metagenomic analysis and classification of data contained in mixed libraries from a wide range of environments. MUDOGER is user-friendly  and is the first tool that can be used for the simultaneous extraction of data from Prokaryotes, Eykaryotes and Virueses by combining a number of pipelines from diffrent tools. The MUDOGER pipilene process starts with **Read Quality control** of the libraries and **Assembly** of the *"good quality reads"* resulted from the former process. For the next part of  data analysis, the pipeline is devided in 3 different branches: **1. Metawrap** pipeline is used for analayzing Prokaryotic genomes. **2.** **Virsorter**, **Virfinder** and **Vibrant** pipilens are followed and combined for the prediction of viral sequences. **3.** **Eykarep** is run for metagenomic analysis of Eykaryotic genomes. 
  
 
 ## MUDOGER Workflow
@@ -13,7 +13,7 @@
 ##  (2) Assembly of the clean metagenomic reads produced in **(1)** by running metaWRAP-Assembly module
 
 ##  (3) Metagenomic analysis of Prokaryotic genomes 
-```(3.1) Bin extraction with MaxBin2, metaBAT2, and CONCOCT(3.2) Unification of multiple binning prediction into an advanced bin set (Bin refinement) (3.3) Quality control using cCheckM **(3.4)** Reassemblethe final annotation with PROKKA```
+```(3.1) Bin extraction with MaxBin2, metaBAT2, and CONCOCT (3.2) Unification of multiple binning prediction into an advanced bin set (Bin refinement) (3.3) Quality control using cCheckM (3.4) Classification of genomic bines (3.5) Reassemblethe final annotation with PROKKA```
 
 ##  (4) Metagenomic analysis of Viral genomes
 ```(4.1) Recovery of viral metagenomes using Virfinder, Virsorter and Vibrant for the prediction of viral sequences, combination of them to a single file and removal of replicates (4.2) Prediction of each contig's protein by Prodigal (4.3) Identification of Proteins by Blastp``` 
@@ -39,6 +39,10 @@
 
 # Installation
 
+## METAWRAP 
+
+
+
 # Using MUDOGER
 A tutorial of MUDOGER usage can be found in  ![Manual](https://github.com/EfthymisF/new/blob/master/Tutorial.md)
 
@@ -54,6 +58,7 @@ Once all the dependencies are in place, running metaWRAP is relatively simple. T
 	bin_refinement	Refinement of bins from binning module
 	checkm		Completeness and contamination of Prokaryotic bins module
 	classify 	Classification of  Prokaryotic bins module
+	prokka		Annotation of bins module
  	virfinder   	Prediction of viral genomes with VirFinder module 
 	virsorter	Prediction of viral genomes with VirSorter module 
 	vibrant		Prediction of viral genomes with VIBRANT module
