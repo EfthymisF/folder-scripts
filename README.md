@@ -13,7 +13,7 @@
 ###  (2) Assembly of the clean metagenomic reads produced in **(1)** by running metaWRAP-Assembly module
 
 ###  (3) Metagenomic analysis of Prokaryotic genomes 
-```(3.1) Bin extraction with MaxBin2, metaBAT2, and CONCOCT (3.2) Unification of multiple binning prediction into an advanced bin set (Bin refinement) (3.3) Quality control using cCheckM (3.4) Classification of genomic bines (3.5) Reassemblethe final annotation with PROKKA```
+```(3.1) Bin extraction with MaxBin2, metaBAT2, and CONCOCT (3.2) Unification of multiple binning prediction into an advanced bin set (Bin refinement) (3.3) Quality control using cCheckM (3.4) Classification of genomic bins (3.5) Reassemble the final annotation with PROKKA```
 
 ###  (4) Metagenomic analysis of Viral genomes
 ```(4.1) Recovery of viral metagenomes using Virfinder, Virsorter and Vibrant for the prediction of viral sequences, combination of them to a single file and removal of replicates (4.2) Prediction of each contig's protein by Prodigal (4.3) Identification of Proteins by Blastp``` 
