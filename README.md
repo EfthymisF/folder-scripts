@@ -30,8 +30,11 @@
 * **Read_Quality_Control:** Trimming of the reads and removal of possible host reads
 * **Assembly:** Assembly of "good quality" sequences
 * **METAWRAP pipeline:**  Metagenomic analysis of prokaryotic genomes
-* **Pipelines for viral genomes(VirFinder, VirSorter, Vibrant):** Metagenomic analysis of viral sequences 
-* **EykRep pipeline:** Metagenomic analysis of Eykaryotic genomes
+* **Pipelines for viral genomes(VirFinder, VirSorter, Vibrant):** Metagenomic analysis of viral sequences 	
+Once the Assembly fasta file is been created, it can be used as input file for the script: ```viral_script.sh```. The ```viral_script.sh``` combines the pipelines of the three viral recovery tools  (**VirFinder, VirSorter, Vibrant**) and the dereplication pipeline. 
+
+
+**EykRep pipeline:** Metagenomic analysis of Eykaryotic genomes
 
 
 # System requirements
@@ -96,5 +99,6 @@ Once all the dependencies are in place, running metaWRAP is relatively simple. T
 # Step 3:METAWRAP pipeline
 
 # Step 4:Pipelines for viral genomes(VirFinder, VirSorter, Vibrant)
+
 
 # Step 5:EykRep pipeline 
